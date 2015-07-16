@@ -2,6 +2,7 @@
 #MMD团队
 
 * [2015 暑期训练营](https://github.com/baidu-ife/ife/tree/master/2015_summer)
+
 # 日程安排
 * 热身教学：7月15日 至 7月17日
 * 任务一实践：7月18日 至 7月26日
