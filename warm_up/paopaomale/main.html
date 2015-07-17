@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>跑跑</title>
+	<!--css样式重置-->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/swiper3.08.min.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/swiper3.08.jquery.min.js"></script>
+
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="log"><a href="#"></a>跑跑</div>
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="content">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<div class="one-section">
+					<div class="wrapper">
+						<h2>我是跑跑</h2>
+						<div class="hr"></div>
+						<p>大家好，我的名字叫做跑跑，我的github账号是paopaomale，欢迎大家来找我玩。</p>
+	
+					</div>
+					<div class="indexButton">
+							<div>了解我</div>
+							<a href='https://github.com/buYiDui'>访问我们的github</a>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide  green">
+				<section class="one-section">
+					<div class="wrapper">
+						<div>
+							<h2>paopaomale</h2>
+							<div class="hr"></div>
+							<p>大家好，我的名字叫做跑跑，我的github账号.</p>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="swiper-slide yellow">
+				<section class="one-section">
+					<div class="wrapper">
+						<div>
+							<h2>paopaomale</h2>
+							<div class="hr"></div>
+							<p>大家好，我的名字叫做跑跑，我的github账号.</p>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="swiper-slide blue">
+				<section class="one-section">
+					<div class="wrapper">
+						<div>
+							<h2>paopaomale</h2>
+							<div class="hr"></div>
+							<p>大大家好，我的名字叫做跑跑，我的github账号.</p>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="swiper-slide green">
+				<section class="one-section">
+					<div class="wrapper">
+						<div>
+							<h2>paopaomale</h2>
+							<div class="hr"></div>
+							<p>大家好，我的名字叫做跑跑，我的github账号</p>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="swiper-slide yellow">
+				<section class="one-section">
+					<div class="wrapper">
+						<div>
+							<h2>paopaomale</h2>
+							<div class="hr"></div>
+							<p>大家好，我的名字叫做跑跑，我的github账号</p>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="swiper-slide blue">
+				<section class="one-section">
+					<div class="wrapper">
+						<div>
+							<h2>paopaomale</h2>
+							<div class="hr"></div>
+							<p>大家好，我的名字叫做跑跑，我的github账号</p>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="swiper-slide green">
+				<section class="one-section">
+					<div class="wrapper">
+						<div>
+							<h2>paopaomale</h2>
+							<div class="hr"></div>
+							<p>大家好，我的名字叫做跑跑，我的github账号</p>
+						</div>
+					</div>
+				</section>
+			</div>
+			</div>
+ 
+			<div class="swiper-pagination"></div>
+		</div>	
+	</div>
+	<footer></footer>
+	<!--初始化swiper -->
+	<script>
+	$('.swiper-slide').height($(window).height()/7.9);
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        direction: 'vertical',
+        slidesPerView: 1,
+        paginationClickable: true,
+        // spaceBetween: 30,
+        speed:1600,
+        mousewheelControl: true
+    });
+    <!--绑定事件 -->
+    $(".indexButton div").click(function() {
+    	swiper.slideNext();
+    });
+    $(".indexButton div").mouseover(function() {
+    	$(".indexButton div").addClass('indexButtonColor');
+    });
+    $(".indexButton div").mouseout(function() {
+    	$(".indexButton div").removeClass('indexButtonColor');
+    });
+    </script>
+
+</body>
+</html>
