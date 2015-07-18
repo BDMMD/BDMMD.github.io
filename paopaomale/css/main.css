@@ -1,0 +1,145 @@
+.clear-float:after{
+	content:'';
+	display: block;
+	clear: both;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body{
+  overflow-y: hidden;
+}
+header nav{
+	height: 80px;
+	width: 100%;
+	background: transparent;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+header .log{
+	height: 80px;
+    line-height: 80px;
+  	width: 100px;
+  	text-align: center;
+  	float: left;
+  	margin-left: 10%;
+  	font-size: 27px;
+  	color: white;
+}
+header ul{
+	list-style: none;
+	margin:0;
+	float: right;
+	height: 80px;
+	width: 80px;
+	margin-right: 7%;
+}
+header ul li:nth-child(2){
+	margin-top: 5px;
+	margin-bottom: 5px;
+	
+}
+header li{
+  width: 25px;
+  height: 4px;
+  background: white;
+  margin: 0 auto;
+  position: relative;
+  top: 29px;
+}
+.one-section{
+	display: block;
+}
+.one-section h2{
+	color: #f6364d;
+}
+.one-section .hr{
+	height: 1px;
+ 	width: 20%;
+ 	background-color: rgb(213, 213, 213);
+    margin: 0 auto;
+    position: absolute;
+    left: 40%;
+    margin-top: 30px;
+    transform: rotate(115deg);
+}
+.one-section p{
+	color: white;
+	font-size: 27px;
+	margin: 5px;
+  word-break: break-all;
+}
+.one-section .wrapper{
+	max-width: 50%;
+	margin: 0 auto;
+	margin-top: 250px;
+	text-align: center;
+}
+.one-section .indexButton{
+  color: white;
+  width: 160px;
+  height: 120px;
+  text-align: center;
+  font-size: 18px;
+  margin: 0 auto;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0px;
+  left: 40%;
+  line-height: 60px;
+}
+.one-section .indexButton a{
+	text-decoration: none;
+	color: white;
+}
+.one-section .indexButton div{
+  border: 1px solid greenyellow;
+  margin: 0 auto;
+  width: 100px;
+  border-radius: 1px;
+  line-height: 50px;
+}
+.one-section .indexButton div:before{
+  transition: right .3s cubic-bezier(0.25, 0.1, 0.25, 0.97);
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 30px;
+  border-radius: 3px;
+  bottom: 68px;
+  right: 133px;
+  background: greenyellow;
+}
+.indexButtonColor:before{
+  transition: right .3s cubic-bezier(0.25, 0.1, 0.25, 0.97);
+  right: 30px !important;
+}
+
+.swiper-slide:nth-child(1){
+    background-image: url('../img/one.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+.swiper-slide{
+	position: relative;
+}
+.swiper-pagination-clickable{
+  position: fixed !important;
+  top: 50% !important;
+  right: 5% !important;
+}
+.swiper-pagination-clickable span{
+   margin: 15px 0 !important;
+}
+.green{
+	background: rgb(91, 213, 115);
+}
+.yellow{
+	background: rgb(210, 208, 81);
+}
+.blue{
+	background: rgb(0, 110, 255);
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<title>MyResume</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<base href="#"></base>
+	<script src="script.js"></script>
+	<script src="jquery-1.7.1.min.js"></script>
+	<script type="text/javascript">// <![CDATA[
+        $( function () {
+            var speed = 800;//自定义滚动速度
+            //回到顶部
+            $( "#toTop").click( function () {
+                $( "html,body").animate({ "scrollTop" : 0 }, speed);
+                });
+            //回到底部
+            var windowHeight = parseInt($("html").css("height" ));//整个页面的高度
+            $( "#toBottom").click(function () {
+                $( "html,body").animate({ "scrollTop" : windowHeight }, speed);
+            });
+        });
+    </script>
+    
+</head>
+<body>
+
+<!-- jq按钮 -->
+<div id="scroll">
+    <div id="toTop" class="scrollItem">回到顶部</div>
+    <div id="toBottom" class="scrollItem">回到底部</div>
+</div>	
+<!-- jq按钮 -->
+
+<div id="wrap">
+	<div id="photocon">
+		<input type="image" src="3678581832026694132.jpg" onclick="test()" id="myphoto" />
+	</div>
+	<div id="myresume">
+		<p>
+			<span style="font-size:30px">杨浩</span>
+			211 985 高考就是纸老虎
+			gpa 3.8 托福雅思都是渣
+			研究生 博士后 本科毕业像条狗
+			北上广 英美欧 要想成功出亚洲 
+			白瘦美 高富帅 满街都是官二代
+			设计师 程序猿 就我一人还没钱
+			大长腿 一八零 六块腹肌才算赢
+			健身房 瑜伽馆 二十开练都算晚
+			ipad mbp 4k才能玩游戏
+			flyme miui 苹果才能用的high
+			akg 铁三角 耳机越贵才越好
+			买手机 别套壳 人生在世为逼格
+			新百伦 亚瑟士 跑步先把装备置
+			超极本 台式机 电脑mac数第一
+			黑红轴 轨迹球 kindle才是文艺流 
+			煤老板 暴发户 大家都穿优衣库
+			学技术 哪家强 北大青鸟和蓝翔
+			月挣车 年买房 存折储蓄像银行
+			上贴吧 刷微博 屌丝没有夜生活
+			土圆肥 很危险 这个世界全看脸
+			懂经济 谈历史 蛤蛤你在作大死 
+			硬科幻 看三体 文革毁灭太阳系
+			国产片 武侠剧 好片都在上世纪
+			郭小四 韩岳父 畅销书籍没出路
+			头像萌 回答嗲 妹子吸粉好方法
+			要摄影 先砸钱 外闪后背要买全
+			东南亚 德意法 旅游还是出国好
+			若相爱 到永久 铠甲软肋全都有
+			用Quora 玩知乎 人丑就要多读书
+		</p>
+	</div>
+	<div id="poem">
+		<p>211 985 高考就是纸老虎</p>
+		<p>gpa 3.8 托福雅思都是渣</p>
+		<p>研究生 博士后 本科毕业像条狗</p>
+		<p>北上广 英美欧 要想成功出亚洲</p>
+		<p>白瘦美 高富帅 满街都是官二代</p>
+		<p>设计师 程序猿 就我一人还没钱</p>
+		<p>大长腿 一八零 六块腹肌才算赢</p>
+		<p>健身房 瑜伽馆 二十开练都算晚</p>
+		<p>ipad mbp 4k才能玩游戏</p>
+		<p>flyme miui 苹果才能用的high</p>
+		<p>akg 铁三角 耳机越贵才越好</p>
+		<p>买手机 别套壳 人生在世为逼格</p>
+		<p>新百伦 亚瑟士 跑步先把装备置</p>
+		<p>超极本 台式机 电脑mac数第一</p>
+		<p>黑红轴 轨迹球 kindle才是文艺流</p>
+		<p>煤老板 暴发户 大家都穿优衣库</p>
+		<p>学技术 哪家强 北大青鸟和蓝翔</p>
+		<p>月挣车 年买房 存折储蓄像银行</p>
+		<p>上贴吧 刷微博 屌丝没有夜生活</p>
+		<p>土圆肥 很危险 这个世界全看脸</p>
+		<p>懂经济 谈历史 蛤蛤你在作大死 </p>
+		<p>硬科幻 看三体 文革毁灭太阳系</p>
+		<p>国产片 武侠剧 好片都在上世纪</p>
+		<p>郭小四 韩岳父 畅销书籍没出路</p>
+		<p>头像萌 回答嗲 妹子吸粉好方法</p>
+		<p>要摄影 先砸钱 外闪后背要买全</p>
+		<p>东南亚 德意法 旅游还是出国好</p>
+		<p>若相爱 到永久 铠甲软肋全都有</p>
+		<p>用Quora 玩知乎 人丑就要多读书</p>
+	</div>
+	<div id="tableheadcon">
+	<div id="tablehead" style="width:75%">
+		<p style="font-size:25px">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp求&nbsp&nbsp&nbsp学&nbsp&nbsp&nbsp经&nbsp&nbsp&nbsp历</p>
+	</div>
+	</div>
+	<div id="columncon">
+	<div id="column1">
+		<br><br>
+		<p>2014-2015</p><br><br>
+		<p>2013-2014</p><br><br>
+		<p>2011-2013</p><br><br>
+		<p>2009-2011</p><br><br>
+		<p>2005-2009</p><br>
+	</div>
+	<div id="column2">
+		<br><br>
+		<a href="http://www.njupt.edu.cn/" target="_blank">NJUPT</a><br><br><br>
+		<a href="#">Haiquan Middle School</a><br><br><br>
+		<a href="">Shanxi Xinjiang Middle School</a><br><br><br>
+		<a href="">Chengguan Senior High School</a><br><br><br>
+		<a href="">Xijie Shiyan Primary School</a><br><br>
+	</div>
+	</div>
+	<textarea id="message" cols="25" rows="8"></textarea><br>
+	<button id="messbtn">给我留言</button>
+	<script>
+		document.getElementById("messbtn").onclick = function(){
+			var request = new XMLHttpRequest();
+			request.open("POST", "message.txt");
+			var data = document.getElementById("message").value;
+			request.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+			request.send(data);
+			request.onreadystatechange = function(){
+				if (request.readyState === 4){
+					if(request.status === 200){
+						alert("Message sended");
+					}
+					else{
+						alert("error");
+					}
+				}
+			}
+		}
+	</script>
+</div>
+</body>
+</html>
