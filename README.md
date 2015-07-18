@@ -1,7 +1,8 @@
 #百度前端技术学院
-#MMD团队
+##[2015 暑期训练营](https://github.com/baidu-ife/ife/tree/master/2015_summer)
 
-* [2015 暑期训练营](https://github.com/baidu-ife/ife/tree/master/2015_summer)
+#MMD团队
+##[团队演示：BDMMD.github.io](http://bdmmd.github.io/)
 
 # 日程安排
 * 热身教学：7月15日 至 7月17日
@@ -10,7 +11,6 @@
 * 中期交叉Review及教学：8月15日 至 8月21日
 * 自由命题任务实践：8月22日 至 9月7日
 * 任务评比：9月7日 至 9月15日
-
 
 ![百度Web前端技术学院](asset/github.jpg)
 

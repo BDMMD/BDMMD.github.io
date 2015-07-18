@@ -1,0 +1,100 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*jq按钮渲染*/
+#scroll {position:fixed; top:300px; right:80px; border:#FAFAFA 1px solid;text-align: center;}
+.scrollItem {
+	width:20px; height:70px; 
+	cursor: pointer; 
+	font-family: Microsoft Yahei;
+	color: #FAFAFA;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#toBottom{
+	margin-bottom: 4px;
+}
+/*jq按钮渲染*/
+
+body{
+	background-image: url(http://g.hiphotos.baidu.com/zhidao/pic/item/b7fd5266d0160924ed070106d60735fae6cd3488.jpg);
+	background-repeat: repeat-y;
+	background-size: 100%
+}
+
+a:link {color: #FAFAFA; text-decoration: none}		/* 未访问的链接 */
+a:visited {color: #FAFAFA; text-decoration: none}	/* 已访问的链接 */
+a:hover {color: #FAFAFA; text-decoration: none}	/* 鼠标移动到链接上 */
+a:active {color: #FAFAFA; text-decoration: none;}
+#myphoto:focus{outline: 0;}	/* 选定的链接 */
+
+#wrap{
+	margin: 0 auto;
+	width: 960px;
+	text-align: center;
+	font-family: Microsoft Yahei;
+	color: #FAFAFA;
+}
+
+
+#myphoto{
+	width: 320px;
+}
+
+#myresume{
+	text-align: left;
+	margin-top: 30px;
+}
+
+#poem{
+	margin-top: 100px;
+	line-height: 1.49;
+}
+
+#tableheadcon{
+			margin: 0 auto;
+			width:700px;
+			margin-top: 150px;
+			border-bottom: 1px solid;
+		}
+
+		#tablehead{
+			text-align: left;	
+		}
+
+		#columncon{
+			margin: 0 auto;
+			width:700px;
+		}
+
+		#column1{
+			width: 200px;
+			float: left;
+			height: 380px;
+			display: table-cell;
+			vertical-align: middle;
+			border-right: 1px solid;
+			padding-top: 17px;
+		}
+
+		#column2{
+			width: 490px;
+			float: right;
+			height: 380px;
+			padding-top: 17px;
+			display: table-cell;
+			vertical-align: middle;
+		}
+
+
+#message{
+	margin-top: 150px;
+	width: 700px;
+	height: 300px;
+	font-size: 16px;
+	color: #333;
+	font-family: Microsoft Yahei;
+}

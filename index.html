@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MMD团队</title>
+	<!--css样式重置 屏蔽各游览器的差异 -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/swiper3.08.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header> <!-- 页头 -->
+		<nav>
+			<div class='logo'><a href="#">MMD</a></div>
+			<div class='header-nav'>
+				<div class='header-index active' data-value='0'><a>主页</a></div>
+				<div class='header-team' data-value='1'><a>团队</a></div>
+				<div class='header-member' data-value='2'><a>成员</a></div>
+				<div  class='header-message' data-value='3'><a>留言</a></div>
+			</div>
+		</nav>
+	</header>
+	<div class="content"><!-- 网页主体 -->
+		<!-- Swiper -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="index-section section">
+						<div class="wrapper">
+							<h1>主页</h1>
+				 			<p>dgdfgfdgfdg</p>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="team-section section">
+						<div class="wrapper">
+							<h1>团队</h1>
+				 			<p>SlidSlide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Sliide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide de 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1e 4</p>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="member-section section">
+						<div class="wrapper">
+							<h1>成员</h1>
+				 			<p>ide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Slide 1Sde 1Slide 1Slide 1Slide 1Slide </p>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="message-section section">
+						<div class="wrapper">
+							<h1>留言</h1>
+				 			<p>ide 1Sli</p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<!-- Add Pagination -->
+			<!-- <div class="swiper-pagination"></div> -->
+			<!-- Add Arrows -->
+			<div class="swiper-button-next"></div>
+			<div class="swiper-button-prev"></div>
+		</div>
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/swiper3.08.jquery.min.js"></script>
+	<script>
+	var swiper = new Swiper('.swiper-container', {
+		pagination: '.swiper-pagination',
+		// paginationClickable: true,
+		nextButton: '.swiper-button-next',
+		prevButton: '.swiper-button-prev',
+		onSlideChangeStart: function(swiper){
+			$('.header-nav div').removeClass('active');
+			//将滑到的页数对应的header-nav添加active类
+			$('.header-nav div:eq('+swiper.activeIndex+')').addClass('active'); 
+		}
+	});
+	</script>
+	<script src="js/event.js"></script>
+</body>
+</html>

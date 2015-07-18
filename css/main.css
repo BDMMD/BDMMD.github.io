@@ -1,0 +1,95 @@
+header nav{
+	background: #E8E8E8;
+	height: 92px;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+nav .logo{
+	float: left;
+	font-size: 38px;
+	letter-spacing: 2px;
+	padding: 0 20px;
+	margin-left: 4%;
+}
+nav .logo a{
+	line-height: 92px;
+	text-decoration: none;
+	height: inherit;
+	display: inline-block;
+	color: black;
+}
+nav .header-nav{
+	list-style: none;
+	margin: 0;
+	float: right;
+	margin-right: 5%;
+}
+nav .header-nav div{
+	display: inline-block;
+	padding: 0 4px;
+	padding-top: 12px;
+	margin-top: -12px;
+}
+nav .header-nav a{
+	color: #646464;
+	line-height: 92px;
+	padding: 4px 12px;
+}
+.header-index.active a{
+	background: #FAE359;
+}
+.header-team.active a{
+	background: #C2ECE4;
+}
+.header-member.active a{
+	background: #EED0C8;
+}
+.header-message.active a{
+	background: #FBBED2;
+}
+.content{
+	padding-top:92px;
+}
+.section{
+	width: 100%;
+	background-color: yellowgreen;
+}
+.section .wrapper{
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+.swiper-container {
+	width: 100%;
+	min-height: 390px;
+	height: auto!important;
+	height: 420px;
+	background-color: yellowgreen;
+}
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+	background-image: url('../img/MMD_10.png');
+	position: fixed;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+	background-image: url('../img/MMD_13.png');
+	position: fixed;
+}
