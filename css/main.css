@@ -1,9 +1,6 @@
 body::-webkit-scrollbar {
   display: none;
 }
-body{
-  overflow-y: hidden;
-}
 header nav{
 	background: #E8E8E8;
 	height: 92px;
