@@ -1,3 +1,9 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+body{
+  overflow-y: hidden;
+}
 header nav{
 	background: #E8E8E8;
 	height: 92px;
@@ -9,8 +15,8 @@ nav .logo{
 	float: left;
 	font-size: 38px;
 	letter-spacing: 2px;
-	padding: 0 20px;
-	margin-left: 4%;
+	padding: 0 5%;
+	margin-left: 3%;
 }
 nav .logo a{
 	line-height: 92px;
@@ -24,6 +30,7 @@ nav .header-nav{
 	margin: 0;
 	float: right;
 	margin-right: 5%;
+	margin-top: 3px;
 }
 nav .header-nav div{
 	display: inline-block;
@@ -34,7 +41,7 @@ nav .header-nav div{
 nav .header-nav a{
 	color: #646464;
 	line-height: 92px;
-	padding: 4px 12px;
+	padding: 4px 5px;
 }
 .header-index.active a{
 	background: #FAE359;
