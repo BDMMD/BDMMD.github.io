@@ -1,0 +1,134 @@
+/* reset */
+body,h1,h3,p,ul{margin:0;padding:0;}
+em{font-style:normal}
+li{list-style:none}
+a{text-decoration:none;}
+img{border:none; vertical-align:top;}
+/* end reset */
+/* common */
+body{ 
+	min-width: 1024px;
+	font-family: 'zhsrx';
+}
+.content{
+	width: 1024px;
+	margin: 0 auto;
+}
+.clear{
+	zoom:1;
+}
+.clear:after{
+	content:"";
+	display: block;
+	clear:both;
+} 
+/* end common */
+#header{
+	background-color: #E8E8E8;
+}
+#header .content{
+	height: 140px;
+	padding-left:107px;
+	padding-right: 82px;
+	width: 835px;
+}
+.logo{
+	float: left;
+	width: 99px;
+	height: 31px;
+	margin-top: 68px;
+}
+.logo a{
+	display: block;
+	height: 100%;
+}
+.nav{
+	float: right;
+	margin-top: 75px;
+}
+.navList{
+	float: left;
+	margin: 0 11px;
+}
+.navListA{
+	display:block;
+	color: #A2A2A2;
+	padding: 7px 12px;
+	border-radius: 3px;
+}
+.navListA:hover{
+	background-color: #EFD1C8;
+}
+#team{
+	background-color: #EECEC3;
+}
+#team .content{
+	height: 608px;
+	background-image: url('../images/bg_big.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.teamWrap{
+	width: 556px;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+.teamList{
+	position: relative;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	border: 10px solid #fff;
+	overflow: hidden;
+	display: inline-block;
+	margin: 10px 20px;
+}
+.teamMeA{
+	display: block;
+}
+.teamMemb{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+	display: none;
+}
+.teamMemb h3{
+	color: #fff;
+	padding-top: 27%;
+	font-size: 20px;
+}
+.teamMemb p{
+	color: #eee;
+	font-size: 12px;
+}
+.teamList:hover .teamMemb{
+	display: block;
+}
+.prev, .next{
+	position: absolute;
+	top: 200px;
+	width: 54px;
+	height: 71px;
+	
+}
+.prev{
+	background-image: url('../images/prev.png');
+	left: 15px;
+}
+.next{
+	background-image: url('../images/next.png');
+	right: 15px;
+}
+.conText{
+	text-align: center;
+	padding-top: 65px;
+	color: #C17468;
+}
+
+
+
