@@ -1,0 +1,65 @@
+.wrap{
+	font-family: Microsoft Yahei;
+	text-align: center;
+	position: relative;
+}
+
+.tooltip li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 10px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+#aqi-bad:hover{
+	background: #ccc;
+}
+
+#aqi-common:hover{
+	background: red;
+}
+
+#aqi-light:hover{
+	background: blue;
+}
+
+#aqi-good:hover{
+	background: #0f0;
+}
+
+.tooltip{
+	margin-top: 30px;
+}
+
+#aqichart{
+	width: 680px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#aqichart li{
+	list-style: none;
+	margin: 10px 0;
+}
+
+#aqichart span{
+	display: inline-block;
+	height: 25px;
+}
+
+.aqi-bad{
+	background: black;
+}
+
+.aqi-common{
+	background: red;
+}
+
+.aqi-light{
+	background: blue;
+}
+
+.aqi-good{
+	background: #00ff00;
+}
